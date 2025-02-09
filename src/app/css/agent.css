@@ -1,0 +1,98 @@
+/* ========================= */
+/* AIエージェント一覧のデザイン */
+/* ========================= */
+
+.agents-container {
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* エージェントリスト */
+.agent-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+/* エージェントカード */
+.agent-card {
+    background: white;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.agent-info {
+  text-align: left;
+  align-self: flex-start; 
+  width: 100%;
+}
+
+
+/* 編集モード */
+.edit-mode {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* 入力フィールド */
+.agent-card input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 新規エージェント作成 */
+.new-agent {
+    width: 100%; 
+    max-width: 800px; 
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.new-agent input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.agent-prompt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.agent-prompt {
+    font-size: 1.2rem;
+    color: #444;
+    background: #f4f4f4;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    max-width: 90%;
+    text-align: center;
+    white-space: pre-wrap;
+    text-align: left;
+}

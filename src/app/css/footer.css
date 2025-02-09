@@ -1,0 +1,8 @@
+/* フッター */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    margin-top: auto;
+}

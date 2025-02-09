@@ -1,0 +1,89 @@
+/* ============================== */
+/* ログイン・登録ページ */
+/* ============================== */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* ============================== */
+/* ログインページのデザイン */
+/* ============================== */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fc;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.login-box p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-box button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.login-box button:hover:enabled {
+    background-color: #0056b3;
+}
+
+/* ============================== */
+/* 新規登録・ログイン切り替え */
+/* ============================== */
+.toggle-text {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.toggle-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.toggle-link:hover {
+    text-decoration: underline;
+}

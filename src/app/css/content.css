@@ -1,0 +1,82 @@
+/* ============================== */
+/* コンテンツ管理ページ */
+/* ============================== */
+.content-management-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-content-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.add-content-button:hover {
+    background-color: #0056b3;
+}
+
+.content-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+.content-list li {
+    background: #f4f7fc;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.content-item {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-item p {
+    margin: 8px 0;
+    font-size: 1rem;
+    color: #333;
+}
