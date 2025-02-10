@@ -4,6 +4,6 @@ AI Agent Hackathon with Google Cloudの成果物です。
 
 ![cc57c7e73a54-20250209](https://github.com/user-attachments/assets/95d7197f-7b14-4312-865f-f54625e7d4a8)
 
-参考リンク :   
+参考リンク : https://zenn.dev/ud_inc/articles/ca7dfbac605e22  
 Unity側 : https://github.com/ForJobOk/QR_AI_AgentScanner_Public/  
 動作確認用リンク : https://qr-ai-agentscannercms-4a812.web.app/
